@@ -9,7 +9,7 @@ let users = [
   { id: 2, name: "Sara", age: 22 }
 ];
 
-//new change is enables
+//new change
 app.post("/users", (req, res) => {
   const newUser = {
     id: users.length + 1,
